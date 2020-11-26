@@ -1,0 +1,918 @@
+body{
+    background-color: rgb(0, 0, 0);  /* rgba(0, 0, 0, 0.966) */
+}
+
+#navbar-supercell-image{
+    width: 50px;
+    border-radius: 8px;
+}
+
+
+.nav-content{
+    color: white;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.nav-content:hover{
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid white;
+}
+
+.btn-1{
+    border: 2px solid white;
+    padding: 8px 18px;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+.btn-1:hover{
+    background: none;
+    color: white;
+}
+.btn-1:focus{
+    background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading-primary-main{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    animation-name: move-from-left1;
+    animation-duration: 3s;
+}
+
+
+@keyframes move-from-left1{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(50px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+.heading-primary-sub{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    animation-name: move-from-left2;
+    animation-duration: 3s;
+}
+
+
+@keyframes move-from-left2{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-50px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.player1{
+    color: white;
+    animation-name: move-in-right1;
+    animation-duration: 4s;
+    text-align: center;
+}
+@keyframes move-in-right1{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.player2{
+    color: white;
+    animation-name: move-in-right2;
+    animation-duration: 5s;
+    text-align: center;
+}
+@keyframes move-in-right2{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+.player3{
+    color: white;
+    animation-name: move-in-right3;
+    animation-duration: 6s;
+    text-align: center;
+}
+@keyframes move-in-right3{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+.player4{
+    color: white;
+    animation-name: move-in-right4;
+    animation-duration: 7s;
+    text-align: center;
+}
+@keyframes move-in-right4{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+.player5{
+    color: white;
+    animation-name: move-in-right5;
+    animation-duration: 8s;
+    text-align: center;
+}
+@keyframes move-in-right5{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+.player6{
+    color: white;
+    animation-name: move-in-right6;
+    animation-duration: 9s;
+    text-align: center;
+}
+@keyframes move-in-right6{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    80% {
+        transform: translateX(30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.player11{
+    color: white;
+    animation-name: move-in-right11;
+    animation-duration: 4s;
+    text-align: center;
+}
+@keyframes move-in-right11{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.player22{
+    color: white;
+    animation-name: move-in-right22;
+    animation-duration: 5s;
+    text-align: center;
+}
+@keyframes move-in-right22{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+.player33{
+    color: white;
+    animation-name: move-in-right33;
+    animation-duration: 6s;
+    text-align: center;
+}
+@keyframes move-in-right33{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+.player44{
+    color: white;
+    animation-name: move-in-right44;
+    animation-duration: 7s;
+    text-align: center;
+}
+@keyframes move-in-right44{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+.player55{
+    color: white;
+    animation-name: move-in-right55;
+    animation-duration: 8s;
+    text-align: center;
+}
+@keyframes move-in-right55{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+.player66{
+    color: white;
+    animation-name: move-in-right66;
+    animation-duration: 9s;
+    text-align: center;
+}
+@keyframes move-in-right66{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(1000px);
+    }
+
+    80% {
+        transform: translateX(-30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+/* 
+
+.top-players{
+    color: white;
+    
+
+}
+
+
+
+
+
+
+
+
+.supercell-main-image{
+    width: 600px;
+}
+
+
+.main-section{
+
+    animation: floatText 5s infinite alternate ease-in-out;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coc-opener{
+    width: 600px;
+    border-radius: 10px;
+
+}
+.coc-opener:hover{
+    animation-name: coc-image;
+    animation-duration: 4s;
+}
+@keyframes coc-image{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    10% {
+        transform: translateX(-20px);
+    }
+    20% {
+        transform: translateX(20px);
+    }
+    30% {
+        transform: translateX(-20px);
+    }
+
+    40% {
+        transform: translateX(20px);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+    60% {
+        transform: translateX(20px);
+    }
+    70% {
+        transform: translateX(-20px);
+    }
+    80% {
+        transform: translateX(20px);
+    }
+    90% {
+        transform: translateX(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+.about-game-main{
+    color: white;
+
+}
+
+
+.about-game-sub{
+    color: rgba(255, 255, 255, 0.829);
+}
+
+
+
+
+.clan-pic{
+    width: 600px;
+    border-radius: 10px;
+}
+
+
+.clan-pic:hover{
+    animation-name: clan-image;
+    animation-duration: 4s;
+}
+@keyframes clan-image{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    10% {
+        transform: translateX(-20px);
+    }
+    20% {
+        transform: translateX(20px);
+    }
+    30% {
+        transform: translateX(-20px);
+    }
+
+    40% {
+        transform: translateX(20px);
+    }
+
+    50% {
+        transform: translateX(-20px);
+    }
+    60% {
+        transform: translateX(20px);
+    }
+    70% {
+        transform: translateX(-20px);
+    }
+    80% {
+        transform: translateX(20px);
+    }
+    90% {
+        transform: translateX(-20px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-clan-main{
+    color: white;
+}
+
+.about-clan-sub{
+    color: white;
+}
+
+
+
+
+
+
+
+
+#bot-section{
+    text-align: center;
+}
+
+
+
+.bot-players{
+    color: black;
+    background: white;
+    border-radius: 25px;
+    padding: 15px 22px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.bot-players:hover{
+    background: none;
+    color: white;
+}
+.bot-players:focus{
+    background: orange;
+}
+
+
+
+
+
+.top-p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    animation-name: move-in-bottom;
+    animation-duration: 4s;
+}
+
+
+@keyframes move-in-bottom{
+ 
+
+    0% {
+        opacity: 0;
+        transform: translateY(1000px);
+    }
+
+    80% {
+        transform: translateY(-30px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#bases{
+    text-align: center;
+}
+
+
+
+.players-base{
+    color: black;
+    background: white;
+    border-radius: 25px;
+    padding: 15px 22px;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.players-base:hover{
+    background: none;
+    color: white;
+}
+.players-base:focus{
+    background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+#last-section{
+
+    border-top: 2px solid white;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+#last2-section{
+    text-align: center;
+    margin: auto;
+    
+}
+
+
